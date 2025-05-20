@@ -49,9 +49,9 @@ export default function RootLayout({
                 <Link href="/" className="text-gray-600 hover:text-gray-900">
                   Home
                 </Link>
-                <Link href="/categories" className="text-gray-600 hover:text-gray-900">
+                {/* <Link href="/categories" className="text-gray-600 hover:text-gray-900">
                   Categories
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
