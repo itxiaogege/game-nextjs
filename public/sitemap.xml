@@ -1,3 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-</sitemapindex>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://3ksgames.com/</loc>
+  <lastmod>2025-05-20T05:50:54+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://3ksgames.com/game/escape-road-2</loc>
+  <lastmod>2025-05-20T05:50:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://3ksgames.com/game/twisty-roads</loc>
+  <lastmod>2025-05-20T05:50:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://3ksgames.com/game/snow-road-3d</loc>
+  <lastmod>2025-05-20T05:50:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://3ksgames.com/game/tap-road</loc>
+  <lastmod>2025-05-20T05:50:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://3ksgames.com/game/escape-road-city-2</loc>
+  <lastmod>2025-05-20T05:50:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://3ksgames.com/game/wave-road</loc>
+  <lastmod>2025-05-20T05:50:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://3ksgames.com/game/crossy-road</loc>
+  <lastmod>2025-05-20T05:50:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://3ksgames.com/game/escape-road-winter</loc>
+  <lastmod>2025-05-20T05:50:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://3ksgames.com/game/drift-road</loc>
+  <lastmod>2025-05-20T05:50:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
