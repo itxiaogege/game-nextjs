@@ -40,18 +40,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <GoogleAnalytics />
+        {/* <GoogleAnalytics /> */}
       </head>
       <body className={inter.className}>
         {/* Google Tag Manager (noscript) */}
-        <noscript>
+        {/* <noscript>
           <iframe 
             src="https://www.googletagmanager.com/ns.html?id=GTM-T7Q9FDR9"
             height="0" 
             width="0" 
             style={{ display: 'none', visibility: 'hidden' }}
           />
-        </noscript>
+        </noscript> */}
         {/* End Google Tag Manager (noscript) */}
         <nav className="bg-white shadow-md">
           <div className="container mx-auto px-4">

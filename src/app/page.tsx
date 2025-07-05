@@ -10,8 +10,10 @@ export default async function Home() {
         {games.map((game, index) => (
           <div itemProp="itemListElement" itemScope itemType="https://schema.org/Game" key={game.id}>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-               <Link
+               <a
                   href={`/game/${game.id}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   key={game.id}
                   className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow"
                 >
@@ -24,7 +26,7 @@ export default async function Home() {
                     className="object-cover"
                   />
                 </div>
-              </Link>
+              </a>
               <div className="p-4">
                 <h2 className="text-xl font-semibold mb-2">{game.title}</h2>
                 <p className="text-gray-600 mb-2">{game.description}</p>

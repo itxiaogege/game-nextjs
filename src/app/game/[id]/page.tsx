@@ -85,14 +85,16 @@ export default async function GamePage({ params }: GamePageProps) {
             <h2 className="text-xl font-semibold mb-4">Related Games</h2>
             <div className="space-y-4">
               {relatedGames.map((relatedGame) => (
-                <Link
+                <a
                   href={`/game/${relatedGame.id}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   key={relatedGame.id}
                   className="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow"
                 >
                   <h3 className="font-semibold">{relatedGame.title}</h3>
                   <p className="text-sm text-gray-600">{relatedGame.description}</p>
-                </Link>
+                </a>
               ))}
             </div>
           </div>
@@ -104,8 +106,10 @@ export default async function GamePage({ params }: GamePageProps) {
         <h2 className="text-2xl font-bold mb-6">More {game.category} Games</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 w-full">
           {sameCategoryGames.map((categoryGame) => (
-            <Link
+            <a
               href={`/game/${categoryGame.id}`}
+              target="_blank"
+              rel="noopener noreferrer"
               key={categoryGame.id}
               className="flex-1 bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow min-w-0"
             >
@@ -125,7 +129,7 @@ export default async function GamePage({ params }: GamePageProps) {
                   <span className="text-yellow-500">★ {categoryGame.rating}</span>
                 </div>
               </div>
-            </Link>
+            </a>
           ))}
         </div>
       </div>

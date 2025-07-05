@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import { Game } from '@/types/game';
 
 interface GameCardProps {
@@ -8,7 +7,13 @@ interface GameCardProps {
 
 export default function GameCard({ game }: GameCardProps) {
   return (
-    <Link href={`/game/${game.id}`} className="block border-2 border-red-500" onClick={() => console.log('Game card clicked!')}>
+    <a 
+      href={`/game/${game.id}`} 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="block border-2 border-red-500" 
+      onClick={() => console.log('Game card clicked!')}
+    >
       <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
         <div className="relative h-48 w-full">
           <Image
@@ -25,6 +30,6 @@ export default function GameCard({ game }: GameCardProps) {
           <p className="text-gray-600 text-sm line-clamp-2">{game.description}</p>
         </div>
       </div>
-    </Link>
+    </a>
   );
 } 
